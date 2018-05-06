@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B842BCDBD72CAFA9F89F15D /* Pods_BlockChainApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9034DC291A0386B4FC073F /* Pods_BlockChainApp.framework */; };
 		9144FE0C209D827A006E372B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9144FE0B209D827A006E372B /* AppDelegate.swift */; };
-		9144FE0E209D827A006E372B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9144FE0D209D827A006E372B /* ViewController.swift */; };
 		9144FE11209D827A006E372B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9144FE0F209D827A006E372B /* Main.storyboard */; };
 		9144FE13209D827B006E372B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9144FE12209D827B006E372B /* Assets.xcassets */; };
 		9144FE16209D827B006E372B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9144FE14209D827B006E372B /* LaunchScreen.storyboard */; };
+		9144FE1E209D82CF006E372B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9144FE1D209D82CF006E372B /* Podfile */; };
+		91E2D22A209D892E0044F54C /* HabitatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2D229209D892E0044F54C /* HabitatViewController.swift */; };
+		91E2D22D209D8BD50044F54C /* HabitatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2D22B209D8BD50044F54C /* HabitatCell.swift */; };
+		91E2D22E209D8BD50044F54C /* HabitatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E2D22C209D8BD50044F54C /* HabitatCell.xib */; };
+		91E2D230209DB0760044F54C /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2D22F209DB0760044F54C /* Purchase.swift */; };
+		91E2D236209DB2280044F54C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2D235209DB2280044F54C /* API.swift */; };
+		91E2D238209DB4F40044F54C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2D237209DB4F40044F54C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F9034DC291A0386B4FC073F /* Pods_BlockChainApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockChainApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FAE5ED6E0AD6DB1A77AA49 /* Pods-BlockChainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockChainApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockChainApp/Pods-BlockChainApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4B3E68CA56B30BE19D25E0CC /* Pods-BlockChainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockChainApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockChainApp/Pods-BlockChainApp.release.xcconfig"; sourceTree = "<group>"; };
 		9144FE08209D827A006E372B /* BlockChainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockChainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9144FE0B209D827A006E372B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9144FE0D209D827A006E372B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9144FE10209D827A006E372B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9144FE12209D827B006E372B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9144FE15209D827B006E372B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9144FE17209D827B006E372B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9144FE1D209D82CF006E372B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		91E2D229209D892E0044F54C /* HabitatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitatViewController.swift; sourceTree = "<group>"; };
+		91E2D22B209D8BD50044F54C /* HabitatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitatCell.swift; sourceTree = "<group>"; };
+		91E2D22C209D8BD50044F54C /* HabitatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitatCell.xib; sourceTree = "<group>"; };
+		91E2D22F209DB0760044F54C /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		91E2D235209DB2280044F54C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		91E2D237209DB4F40044F54C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B842BCDBD72CAFA9F89F15D /* Pods_BlockChainApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BE628808BC1FF34ACAB960B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F9034DC291A0386B4FC073F /* Pods_BlockChainApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9144FDFF209D827A006E372B = {
 			isa = PBXGroup;
 			children = (
+				9144FE1D209D82CF006E372B /* Podfile */,
 				9144FE0A209D827A006E372B /* BlockChainApp */,
 				9144FE09209D827A006E372B /* Products */,
+				C38E62CC69B82468969217DD /* Pods */,
+				8BE628808BC1FF34ACAB960B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,60 @@
 		9144FE0A209D827A006E372B /* BlockChainApp */ = {
 			isa = PBXGroup;
 			children = (
+				91E2D234209DB2190044F54C /* api */,
+				91E2D233209DB1F40044F54C /* model */,
+				91E2D232209DB1DC0044F54C /* view */,
+				91E2D231209DB1C50044F54C /* vc */,
 				9144FE0B209D827A006E372B /* AppDelegate.swift */,
-				9144FE0D209D827A006E372B /* ViewController.swift */,
-				9144FE0F209D827A006E372B /* Main.storyboard */,
 				9144FE12209D827B006E372B /* Assets.xcassets */,
-				9144FE14209D827B006E372B /* LaunchScreen.storyboard */,
 				9144FE17209D827B006E372B /* Info.plist */,
 			);
 			path = BlockChainApp;
+			sourceTree = "<group>";
+		};
+		91E2D231209DB1C50044F54C /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				91E2D229209D892E0044F54C /* HabitatViewController.swift */,
+				91E2D22B209D8BD50044F54C /* HabitatCell.swift */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		91E2D232209DB1DC0044F54C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9144FE0F209D827A006E372B /* Main.storyboard */,
+				9144FE14209D827B006E372B /* LaunchScreen.storyboard */,
+				91E2D22C209D8BD50044F54C /* HabitatCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		91E2D233209DB1F40044F54C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				91E2D22F209DB0760044F54C /* Purchase.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		91E2D234209DB2190044F54C /* api */ = {
+			isa = PBXGroup;
+			children = (
+				91E2D235209DB2280044F54C /* API.swift */,
+				91E2D237209DB4F40044F54C /* Constants.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		C38E62CC69B82468969217DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33FAE5ED6E0AD6DB1A77AA49 /* Pods-BlockChainApp.debug.xcconfig */,
+				4B3E68CA56B30BE19D25E0CC /* Pods-BlockChainApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9144FE1A209D827B006E372B /* Build configuration list for PBXNativeTarget "BlockChainApp" */;
 			buildPhases = (
+				4EBBBCB9168BCA8383850396 /* [CP] Check Pods Manifest.lock */,
 				9144FE04209D827A006E372B /* Sources */,
 				9144FE05209D827A006E372B /* Frameworks */,
 				9144FE06209D827A006E372B /* Resources */,
+				25F0F19C0E2F9DEC38051D8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +198,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E2D22E209D8BD50044F54C /* HabitatCell.xib in Resources */,
 				9144FE16209D827B006E372B /* LaunchScreen.storyboard in Resources */,
 				9144FE13209D827B006E372B /* Assets.xcassets in Resources */,
+				9144FE1E209D82CF006E372B /* Podfile in Resources */,
 				9144FE11209D827A006E372B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25F0F19C0E2F9DEC38051D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BlockChainApp/Pods-BlockChainApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockChainApp/Pods-BlockChainApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBBBCB9168BCA8383850396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockChainApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9144FE04209D827A006E372B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9144FE0E209D827A006E372B /* ViewController.swift in Sources */,
+				91E2D230209DB0760044F54C /* Purchase.swift in Sources */,
+				91E2D22A209D892E0044F54C /* HabitatViewController.swift in Sources */,
+				91E2D22D209D8BD50044F54C /* HabitatCell.swift in Sources */,
 				9144FE0C209D827A006E372B /* AppDelegate.swift in Sources */,
+				91E2D236209DB2280044F54C /* API.swift in Sources */,
+				91E2D238209DB4F40044F54C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +399,7 @@
 		};
 		9144FE1B209D827B006E372B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FAE5ED6E0AD6DB1A77AA49 /* Pods-BlockChainApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +418,7 @@
 		};
 		9144FE1C209D827B006E372B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3E68CA56B30BE19D25E0CC /* Pods-BlockChainApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
